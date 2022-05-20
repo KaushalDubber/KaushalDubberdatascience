@@ -1,0 +1,83 @@
+
+s = "this is My First Python programming class and i am learNING python string and its function"
+1 . Try to extract data from index one to index 300 with a jump of 3 
+s[1:300:3]
+'h   r tnrrmglsnimeNGyosi dtfco'
+----------------------------------------------------------------------------------------------------
+d = "kaushal"
+2. Try to reverse a string without using reverse function 
+d[::-1]
+'lahsuak'
+----------------------------------------------------------------------------------------------------
+s= "this is my python programming class"
+3. Try to split a string after conversion of entire string in uppercase 
+s.upper()
+'THIS IS MY PYTHON PROGRAMMING CLASS'
+s = s.upper()
+s.split()
+['THIS', 'IS', 'MY', 'PYTHON', 'PROGRAMMING', 'TUTORIAL']
+
+----------------------------------------------------------------------------------------------------
+s = "THIS IS MY PYTHON PROGRAMMING CLASS"
+4. try to convert the whole string into lower case
+s.lower()
+'this is my python programming class'
+---------------------------------------------------------------------------------------------------- 
+5 . Try to capitalize the whole string 
+d = "a critical moment in the history came in December 1979 when Jobs and several Apple employees"
+d.upper()
+'A CRITICAL MOMENT IN THE HISTORY CAME IN DECEMBER 1979 WHEN JOBS AND SEVERAL APPLE EMPLOYEES'
+-----------------------------------------------------------------------------------------------------
+6 . Write a diference between isalnum() and isalpha()
+isalnum() - it will return the value true if the string is alphanumeric (eg: d = "Kaushal01") otherwise it will be false if the string is not alphanumeric (eg: d = "Kaushal Dubber")
+isalpha() - it will return the value true if the string is alphabet (eg: d = "Kaushal") otherwise it will be false if the string is not alphabet (eg: d = "Kaushal Dubber")
+-----------------------------------------------------------------------------------------------------
+7. Try to give an example of expand tab
+e = "kaushal\tdubber\tis a computer engineer"
+e.expandtabs()
+'kaushal dubber  is a computer engineer'
+
+-----------------------------------------------------------------------------------------------------
+8 . Give an example of strip , lstrip and rstrip 
+
+t = "    kaushaldubber   "
+t.strip()
+'kaushaldubber'
+
+t.rstrip()
+'    kaushaldubber'
+
+t.lstrip()
+'kaushaldubber   '
+-----------------------------------------------------------------------------------------------------
+9.  Replace a string charecter by another charector by taking your own example "sudhanshu"
+
+p = "sudhanshu"
+p.replace('sudhanshu','hero')
+'hero'
+------------------------------------------------------------------------------------------------------
+10 . Try  to give a defination of string center function with and exmple 
+
+p = "sudhanshu"
+The use of the string center function is to return a centered string of length width (#).
+p.center(50,'#')
+'####################sudhanshu#####################'
+------------------------------------------------------------------------------------------------------
+11 . Write your own definition of compiler and interpretor without copy paste form internet in your own language
+
+A compiler and interpreter are computer programs which converts our language (programming language) into machine language or computer language (language of zero's and ones)
+The main diffrence between compiler and interpreter is that a compiler converts the code before the execution of the program and interpreter converts the code during the execution of the program.
+---------------------------------------------------------------------------------------------------------------
+12 . Python is a interpreted of compiled language give a clear ans with your understanding 
+
+As answered in the above question, as python intrepretates and converts the code during the execution of the program, the compilation part remains hidden from the user so generally python does both interpretation and compilation so it's said that "Python is a interpreted of compiled language".
+---------------------------------------------------------------------------------------------------------------
+13 . Try to write a usecase of python with your understanding
+
+Use Cases in python -- Game Development, AI Applications, Web Applications, Finance and Fraud Detection, Data Analytics 
+---------------------------------------------------------------------------------------------------------------
+
+
+you have to send a jupyter notebook to shivan@ineuron.ai before next saturday class 21st May. 
+
+
